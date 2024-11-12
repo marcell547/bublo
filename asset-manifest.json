@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bublo/static/css/main.733e90d4.css",
+    "main.js": "/bublo/static/js/main.bbb2d388.js",
+    "static/media/imagenPrincial.jpg": "/bublo/static/media/imagenPrincial.268eee790ff0cccfa889.jpg",
+    "static/media/entregas.png": "/bublo/static/media/entregas.eba38a7dfa15379891ce.png",
+    "static/media/stands.png": "/bublo/static/media/stands.861cd35a7f5ae039388d.png",
+    "static/media/bublologo.png": "/bublo/static/media/bublologo.9ad420cdac37f5a536ba.png",
+    "index.html": "/bublo/index.html",
+    "main.733e90d4.css.map": "/bublo/static/css/main.733e90d4.css.map",
+    "main.bbb2d388.js.map": "/bublo/static/js/main.bbb2d388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.733e90d4.css",
+    "static/js/main.bbb2d388.js"
+  ]
+}
