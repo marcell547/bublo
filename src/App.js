@@ -7,9 +7,9 @@ import Instrucciones from "./Componentes/Instrucciones";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bublo">
     <Wrap>
-      <Routes>
+      <Routes >
         <Route path="/" element={
 
           <Onboarding></Onboarding>
