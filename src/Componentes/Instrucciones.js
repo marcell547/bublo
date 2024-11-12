@@ -161,7 +161,7 @@ const ContainerText =styled.div`
     }
         @media (max-width: 1000px){
     
-        top: -12%;
+        top: -16%;
     
     }
         @media (max-width: 850px){
@@ -174,14 +174,15 @@ const ContainerText =styled.div`
 
     @media (max-width: 784px){
     
-        top: -10%;
+        top: -17%;
     }
          @media (max-width: 550px){
-        top:-9%;
+        top:-16%;
     }
 
       @media (max-width: 420px){
-        top:-7%;
+        top:-14%;
+        margin-bottom:20px;
     }
     
 `;
@@ -200,6 +201,10 @@ const Paragrahp = styled.p`
         @media (max-width: 1000px){
     
         font-size:18px;
+    }
+        @media (max-width: 850px){
+    
+        font-size:16px;
     }
     
 

@@ -75,7 +75,7 @@ const ContainerText= styled.div`
     flex-direction:column;
     justify-content: center;
     align-items:center;
-    gap:10px;
+    gap:5px;
     
 `;
 
@@ -95,12 +95,12 @@ const Paragrahp = styled.p`
     margin:0px;
     @media (max-width: 1150px){
         
-        font-size:20px;
+        font-size:18px;
     }
 
     @media (max-width: 950px){
         
-        font-size:18px;
+        font-size:16px;
     }
         @media (max-width: 850px){
         
@@ -166,9 +166,14 @@ const Precio = styled.h1`
         font-size:24px;
        
     }
-        @media (max-width: 350px){
+        @media (max-width: 400px){
         
         font-size:18px;
+       
+    }
+        @media (max-width: 350px){
+        
+        font-size:16px;
        
     }
 `;
@@ -181,11 +186,8 @@ const ContenedorBoton =styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding-bottom:5px;
 
-    @media (max-width: 784px){
-        
-        padding-bottom:5px;
-    }
 `;
 
 const Boton = styled.button`
@@ -201,26 +203,38 @@ const Boton = styled.button`
     transition: .3s easy all;
     width:230px;
 
-    @media (max-width: 1100px){
+     @media (max-width: 1100px){
         
-        font-size:24px;
-        width:200px;
+        font-size:18px;
+        width:180px;
     }
 
     @media (max-width: 950px){
         
-        font-size:20px;
-        width:170px;
+        font-size:16px;
+        width:160px;
     }
-        @media (max-width: 850px){
+     @media (max-width: 850px){
+        
+        font-size:14px;
+        width:120px;
+    }
+    @media (max-width: 784px){
         
         font-size:18px;
-        width:140px;
+        width:200px;
     }
-        @media (max-width: 500px){
+
+    @media (max-width: 500px){
         
         font-size:16px;
         width:140px;
+    }
+    @media (max-width: 420px){
+        
+        font-size:12px;
+        width:120px;
+        
     }
 
     &:hover { background-color: #17d2c1; }
